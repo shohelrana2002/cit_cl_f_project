@@ -7,7 +7,9 @@ const ErrorPage = () => {
       <div>
         <p className="text-center text-4xl ">404</p>
 
-        <Link to={"/"}>back To Home</Link>
+        <Link className="btn btn-secondary" to={"/"}>
+          back To Home
+        </Link>
       </div>
     </div>
   );
