@@ -5,11 +5,13 @@ import Contact from "../Pages/Contact";
 import About from "../Pages/About";
 import AddProduct from "../Pages/AddProduct";
 import Profile from "../Dasboard/Profile";
+import ErrorPage from "../Pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
